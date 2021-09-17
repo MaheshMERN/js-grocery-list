@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Mumblers Demo";
+    background-color: orange;
+}
+.container{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.groceries{
+    border: 1px solid black;
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+
+}
+.groceries h1{
+    font-size: 2.4rem;
+    margin-top: 1rem;
+}
+.groceries i{
+    font-size: 2rem;
+    color:orange;
+}
+.groceries input{
+    font-family: inherit;
+    border: 1px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+#allItem h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 2rem;
+
+}
